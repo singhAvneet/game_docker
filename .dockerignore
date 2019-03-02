@@ -1,0 +1,14 @@
+.git
+Dockerfile
+.gitignore
+README.md
+*.bat
+*.yml
+public
+views
+node_modules
+package-lock.json
+
+# To prevent storing dev/temporary container data
+*.csv
+/tmp/*

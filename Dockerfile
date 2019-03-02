@@ -10,4 +10,6 @@ RUN npm install -g gulp
 
 RUN npm install --quiet
 EXPOSE 3000
-ENTRYPOINT ["/bin/bash", "-c", "npm start"]
+# ENTRYPOINT ["/bin/bash", "-c", "npm start"]
+ENTRYPOINT ["/var/www/entrypoint.sh"]
+CMD ["gulp"]

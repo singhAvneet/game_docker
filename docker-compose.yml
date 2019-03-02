@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  game:
+    image: avneet7193/game
+    container_name: game
+    ports:
+      - "8080:3000"
