@@ -1,11 +1,11 @@
 Dockerize game build on phaser.js
 
-Software : node, express and gulp
+Software: node, express and gulp
 
-Development:
-npm install
-gulp
+Localhost Development: RUN 
+npm install,
+gulp,
 npm start
 
-Docker:
+Docker: RUN
 refresh.bat
