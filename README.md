@@ -8,4 +8,4 @@ gulp,
 npm start
 
 Docker: RUN
-refresh.bat
+refresh.bat or "docker-compose up -d" from the root directory
